@@ -24,7 +24,7 @@
 # Preferences (controls template behavior)
 preferences:
   homepage:
-    enabled: false
+    enabled: true
   search:
     enabled: true
   backlinks:
@@ -35,10 +35,10 @@ preferences:
     enabled: true
 
 # Site Configuration
-title: "Your Site Title"
-heading: "Your Name"
-description: "A brief description of your site"
-url: "https://yoursite.com"
+title: "mfroach.github.io"
+heading: "mfroach"
+description: "My personal wiki and maybe blog."
+url: "https://mfroach.github.io"
 baseurl: ""
 
 # Asset Configuration
@@ -57,7 +57,7 @@ menu:
 
 # Footer
 footer:
-  copyright: "© 2024 Your Name. Contents under CC-BY-NC"
+  copyright: "© 2025 mfroach. Contents under CC-BY-NC"
   credits:
     enabled: true
     url: "/credits"
@@ -98,7 +98,7 @@ privatelinks:
   msg: "This note hasn't been published yet."
 
 # Math rendering
-katex: true
+katex: false
 
 # Exclude from processing
 exclude:
