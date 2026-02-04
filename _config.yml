@@ -1,13 +1,13 @@
 # Site settings
-title: Max Bernstein
+title: mfroach
 # Site's name
-name: Max Bernstein's Blog
-author: Max Bernstein
-author_nickname: Max Bernstein
-email: max@bernsteinbear.com
+name: mfroach's blog
+author: mfroach
+author_nickname: mfroach
+email: mfro@pm.me
 description: ""
 baseurl: ""
-url: "https://bernsteinbear.com"
+url: "https://mfroach.github.io"
 exclude: [vendor]
 # TODO(max): Use pagefind (pagefind --source . --root-selector .container) but
 # avoid scanning _site somehow.
@@ -16,14 +16,14 @@ include: [.well-known]
 future: false
 
 twitter:
-  username: tekknolagi
+  username: none
 
 mastodon:
-  username: tekknolagi
-  url: "https://mastodon.social/@tekknolagi"
+  username: none
+  url: "https://mastodon.social/@none"
 
 repo:
-  repository_url: https://github.com/tekknolagi/tekknolagi.github.com
+  repository_url: https://github.com/mfroach/mfroach.github.io
   branch: main
 
 permalink: '/blog/:slug/'
