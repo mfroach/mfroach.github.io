@@ -2,7 +2,7 @@ name: Update copy of microblog
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 * * * *"  # Hourly
+    - cron: "0 0 5 31 2 ?"  # never
 permissions:
   contents: write
 jobs:
