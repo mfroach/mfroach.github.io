@@ -8,9 +8,7 @@ layout: page
 # I'm mfroach.
 
 I am a human and [programmer](https://github.com/mfroach). I like to read
-books, lift, and play video games.
-
-**New:** I am helping port [tModLoader](https://github.com/tModLoader/tModLoader) to Terraria 1.4.5!
+science fiction, lift, and play video games.
 
 
 You can [email me](mailto:mfro@pm.me) if you so desire.
