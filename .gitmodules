@@ -1,4 +1,0 @@
-[submodule "resources/lisp"]
-	path = resources/lisp
-	url = https://github.com/tekknolagi/blog-lisp.git
-	branch = master
