@@ -1,7 +1,7 @@
-title: Fernando Borretti
+title: mfroach
 description: Personal website
 baseurl: ""
-url: "https://borretti.me"
+url: "https://mfroach.github.io"
 
 markdown: kramdown
 
@@ -19,10 +19,6 @@ defaults:
       path: "article"
     values:
       layout: article
-  - scope:
-      path: "fiction"
-    values:
-      layout: fiction
 
 permalink: /:categories/:title
 
