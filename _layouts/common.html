@@ -17,26 +17,6 @@ layout: base
       <li>
         <a href="/article/">Articles</a>
       </li>
-      {% elsif page.url contains "eog581/" %}
-      <li>
-        <span class="sep">{{ fleuron }}</span>
-      </li>
-      <li>
-        <a href="/fiction/">Fiction</a>
-      </li>
-      <li>
-        <span class="sep">{{ fleuron }}</span>
-      </li>
-      <li>
-        <a href="/fiction/eog581">The Epiphany of Gliese 581</a>
-      </li>
-      {% elsif page.categories[0] == "fiction" %}
-      <li>
-        <span class="sep">{{ fleuron }}</span>
-      </li>
-      <li>
-        <a href="/fiction/">Fiction</a>
-      </li>
       {% endif %}
     </ul>
   </nav>
@@ -56,25 +36,7 @@ layout: base
         <span class="sep">—</span>
       </li>
       <li>
-        <a href="/portfolio">Portfolio</a>
-      </li>
-      <li>
-        <span class="sep">—</span>
-      </li>
-      <li>
         <a href="/article">Articles</a>
-      </li>
-      <li>
-        <span class="sep">—</span>
-      </li>
-      <li>
-        <a href="/fiction">Fiction</a>
-      </li>
-      <li>
-        <span class="sep">—</span>
-      </li>
-      <li>
-        <a href="/consulting">Consulting</a>
       </li>
       <li>
         <span class="sep">—</span>
@@ -86,7 +48,7 @@ layout: base
   </nav>
   <footer>
     <div class="copy">
-      &copy; 2014 – {{ site.time | date: '%Y' }} Fernando Borretti
+      &copy; 2026 – {{ site.time | date: '%Y' }} M F R
     </div>
   </footer>
 </div>
